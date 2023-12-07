@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./Footer"
+
 
 function Landingpage() {
   return (
@@ -169,6 +171,9 @@ function Landingpage() {
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
+            <section className="footer">
+        <Footer />
+      </section>
           </div>
         </div>
       </div>

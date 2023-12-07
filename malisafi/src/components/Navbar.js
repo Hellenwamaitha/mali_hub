@@ -9,7 +9,7 @@ function Navbar(){
             <nav>
         <ul>
           <li>
-            <Link to="/">NEW ARRIVALS</Link>
+            <Link to="newarrivals">NEWARRIVALS</Link>
           </li>
           <li>
             <Link to="/makeup">MAKEUP</Link>
@@ -33,7 +33,7 @@ function Navbar(){
             <Link to="/accessiories">ACCESSIORIES</Link>
           </li>
           <li>
-            <Link to="/fragrance">FRAGRANCES</Link>
+            <Link to="/fragrances">FRAGRANCES</Link>
           </li>
         </ul>
       </nav>
