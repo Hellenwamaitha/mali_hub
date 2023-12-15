@@ -7,7 +7,11 @@ function Navbar(){
         <header>
             <img className="logo" src="https://beautyclick.co.ke/cdn/shop/files/beautyclick-logo_800x_5315819d-2b1d-4eb3-b1f4-6410efc27c7e_200x.png?v=1613513905" alt="logo" />
             <nav>
-        <ul>
+        
+          <ul>
+          <li>
+            <Link to="/">LANDINGPAGE</Link>
+          </li>
           <li>
             <Link to="newarrivals">NEWARRIVALS</Link>
           </li>

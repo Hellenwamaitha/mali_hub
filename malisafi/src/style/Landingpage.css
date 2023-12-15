@@ -1,0 +1,61 @@
+.carousel-item{
+    height: 75vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-backgroung-size: cover;
+    background-size: cover;
+  }
+  .carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.5;
+  
+  }
+  .carousel-caption{
+    bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .carousel-caption h5{
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 20px;
+  }
+  .carousel-caption p{
+    color: white;
+    background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px solid black;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+  }
+  .carousel-inner img {
+    width: 100%;
+    padding: auto;
+    height: 75vh;
+    object-fit: cover;
+  }
+  .carousel-control-prev {
+    bottom: 190vh;
+  }
+  .carousel-control-next {
+    bottom: 190vh;
+  }
+  .carousel-indicators {
+    bottom: 190vh;
+  }
+  /*Footer */
+.footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);
+}

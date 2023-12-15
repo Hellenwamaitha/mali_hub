@@ -1,15 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Newarrivals from "./components/Newarrivals";
-import Makeup from "./components/Makeup";
-import Skincare from "./components/Skincare";
-import Haircare from "./components/Haircare";
-import Hair from "./components/Hair";
-import BathBody from "./components/BathBody";
-import Brand from "components/Brand";
-import Accessiories from "components/Accessiories";
-import Fragrances from "./components/Fragrances"
+import Navbar from "./Navbar";
+import Newarrivals from "./Newarrivals";
+import Makeup from "./Makeup";
+import Skincare from "./Skincare";
+import Haircare from "./Haircare";
+import Hair from "./Hair";
+import BathBody from "./BathBody";
+import Brand from "./Brand";
+import Accessiories from "./Accessiories";
+import Fragrances from "./Fragrances"
+import Landingpage from "./Landingpage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/" element={<Landingpage />} />
           <Route path="/newarrivals" element={<Newarrivals />} />
           <Route path="/makeup" element={<Makeup />} />
           <Route path="/skincare" element={<Skincare />} />
