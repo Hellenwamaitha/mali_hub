@@ -6,7 +6,7 @@ function Accessories() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://images.unsplash.com/photo-1569388330292-79cc1ec67270?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D"
+            src="https://media.istockphoto.com/id/1403525183/photo/chain-shape-golden-modern-bracelet-and-ring-on-white-podium-with-copy-space.jpg?s=2048x2048&w=is&k=20&c=vtD7m6jdOadA0k453xrqtAUUs3JCWPQqSDEXN2JcEFs="
             className="d-block w-100"
             alt="accessories"
           />
@@ -37,7 +37,7 @@ function Accessories() {
 
       <div className="card" style={{ width: "18rem" }}>
         <img
-          src="https://media.istockphoto.com/id/1403525183/photo/chain-shape-golden-modern-bracelet-and-ring-on-white-podium-with-copy-space.jpg?s=2048x2048&w=is&k=20&c=vtD7m6jdOadA0k453xrqtAUUs3JCWPQqSDEXN2JcEFs="
+          src="https://images.unsplash.com/photo-1569388330292-79cc1ec67270?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D"
           className="card-img-top"
           alt="item 1"
         />

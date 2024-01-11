@@ -10,10 +10,7 @@ function Navbar(){
         
           <ul>
           <li>
-            <Link to="/">LANDINGPAGE</Link>
-          </li>
-          <li>
-            <Link to="newarrivals">NEWARRIVALS</Link>
+            <Link to="/">NEWARRIVALS</Link>
           </li>
           <li>
             <Link to="/makeup">MAKEUP</Link>

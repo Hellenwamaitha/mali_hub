@@ -1,3 +1,4 @@
+
 .carousel-item{
     height: 75vh;
     min-height: 300px;
@@ -5,7 +6,12 @@
     -webkit-backgroung-size: cover;
     background-size: cover;
   }
-  .carousel-item::before{
+ 
+.space-between-navbar-carousel {
+  margin-top: 50px; /* Adjust the margin as needed to create space */
+}
+
+  /* .carousel-item::before{
     content: "";
     display: block;
     position: absolute;
@@ -13,11 +19,11 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: black;
+    
     opacity: 0.5;
   
-  }
-  .carousel-caption{
+  } */
+  /* .carousel-caption{
     bottom: 200px;
     padding-left: 100px;
     padding-right: 100px;
@@ -38,24 +44,26 @@
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 10px;
-  }
-  .carousel-inner img {
-    width: 100%;
-    padding: auto;
-    height: 75vh;
-    object-fit: cover;
-  }
-  .carousel-control-prev {
-    bottom: 190vh;
-  }
-  .carousel-control-next {
-    bottom: 190vh;
-  }
-  .carousel-indicators {
-    bottom: 190vh;
-  }
-  /*Footer */
-.footer {
-    font-family: 'Roboto Condensed', sans-serif;
-    background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);
-}
+  } */
+  /* nav {
+    margin-left: 25%;
+    margin-top: 20px;
+    position: absolute;
+ }
+ nav ul li {
+    display: inline-flex;
+    list-style: none;
+    font-size: 10px;
+ }
+ .logo{
+    width: 100px;
+ }
+ a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding-right: 50px;
+ }
+ a:hover {
+    color: #7FD1B9;
+ } */
