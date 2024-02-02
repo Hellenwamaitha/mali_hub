@@ -1,4 +1,184 @@
 * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: 'Roboto Condensed', sans-serif;
+ }
+ 
+ header {
+   display: flex;
+   align-items: center;
+   text-transform: lowercase;
+   font-size: 10px;
+   padding: 0px 5%;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+ }
+ 
+ /* nav {
+   margin-left: 25%;
+   margin-top: 00px; /* Adjust as needed */
+   /* position: absolute;
+ } */ 
+ 
+ /* nav ul li {
+   display: inline-flex;
+   list-style: none;
+   font-size: 18px; /* Adjust as needed */
+ /* }  */
+ 
+ /* .logo {
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+ } */
+ 
+ a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   padding-right: 20px; /* Adjust as needed */
+   text-transform: uppercase;
+ }
+ 
+ 
+ 
+ .btn {
+   background-color: #7FD1B9;
+   color: black;
+ }
+ 
+ .overlay {
+   position: fixed;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .carousel-caption p {
+   color: white;
+   background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 10px solid black;
+   font-family: 'Amatic SC', cursive;
+   margin-top: 20px;
+   font-size: 30px;
+   font-weight: bolder;
+   letter-spacing: 10px;
+ }
+ 
+ a:hover {
+   color: #7FD1B9;
+ }
+ 
+ .space-between-navbar-carousel {
+   margin-top: 90px; /* Adjust as needed */
+ }
+ 
+ .carousel-item {
+   height: 90vh;
+   min-height: 500px;
+   background: no-repeat scroll center scroll;
+   -webkit-backgroung-size: cover;
+   background-size: cover;
+ }
+ 
+ /* .logo {
+   width: 130px;
+ } */
+
+ /* Reset default margin and padding */
+
+*/* Reset default margin and padding */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the top navbar */
+.top-navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-navbar span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Style the middle navbar */
+.middle-navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-navbar .logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.middle-navbar .icons span {
+  margin: 0 10px;
+}
+
+.middle-navbar .icons span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Style the bottom navbar */
+.bottom-navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.bottom-navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.bottom-navbar ul li {
+  margin-right: 20px;
+}
+
+.bottom-navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-navbar ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ /* Add this to your CSS stylesheet
+.half-page {
+   width: 100%;
+   height: 50vh; /* Set the height to 50% of the viewport height */
+   /* overflow: hidden; */
+ /* } */
+ 
+ /* .main-makeup-image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+ }
+  */ 
+ 
+ 
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,12 +186,7 @@
 body{
    font-family: 'Roboto Condensed', sans-serif;
 }
-.wrapper {
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px ;
-    font-size: 20px;
- }
+
  header {
     display: flex;
     align-items: center;
@@ -22,13 +197,13 @@ body{
  }
  nav {
     margin-left: 25%;
-    margin-top: 59px;
+    margin-top: 200px;
     position: absolute;
  }
  nav ul li {
     display: inline-flex;
     list-style: none;
-    font-size: 12px;
+    font-size: 200px;
  }
  .logo {
    display: flex;
@@ -38,12 +213,12 @@ body{
  a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 18px;
     padding-right: 50px;
     text-transform: uppercase;
  }
  a:hover {
-    color: #7FD1B9;
+    color: purple;
  }
 
  .btn {
@@ -57,3 +232,36 @@ body{
    align-items: center;
    justify-content: center;
  }
+ .carousel-caption p{
+   color: white;
+   background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 10px solid black;
+   font-family: 'Amatic SC', cursive;
+   margin-top: 20px;
+   font-size: 30px;
+   font-weight: bolder;
+   letter-spacing: 10px;
+ } 
+ 
+/* nav ul li {
+   display: inline-flex;
+   list-style: none;
+   font-size: 70px;
+} */
+/* a:hover {
+   color: #7FD1B9;
+} 
+.space-between-navbar-carousel {
+   margin-top: 800px; /* Adjust the margin as needed to create space */
+ 
+ /* .carousel-item{
+   height: 50vh;
+   min-height: 300px;
+   background: no-repeat scroll center scroll;
+   -webkit-backgroung-size: cover;
+   background-size: cover;
+ }
+ .logo{
+   width: 130px;
+} */

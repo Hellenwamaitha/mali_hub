@@ -11,6 +11,7 @@ function Hair() {
           className="main-hair-image"
         />
       </div>
+      
 
       
       <div className="half-page">
